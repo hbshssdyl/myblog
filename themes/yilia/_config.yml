@@ -217,7 +217,7 @@ style:
     # 是否启用左侧边栏动态图效果
     enable: true
     # 自定义背景图路径(默认可以不设置，提供默认背景图)
-    path: /img/biu2.png
+    path: /img/biu3.png
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
