@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoeyBling/hexo-theme-yilia-plus.git"
+    "url": "git+https://github.com/dufreeheart"
   },
   "keywords": [
     "hexo",
@@ -17,10 +17,10 @@
     "blog",
     "yilia-plus"
   ],
-  "author": "周思伟",
+  "author": "Dylan",
   "license": "Apache License",
   "bugs": {
-    "url": "https://github.com/JoeyBling/hexo-theme-yilia-plus/issues"
+    "url": "https://github.com/dufreeheart"
   },
   "homepage": ".",
   "devDependencies": {
