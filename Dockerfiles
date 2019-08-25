@@ -1,0 +1,15 @@
+FROM node:12.8.1
+MAINTAINER Dylan
+
+RUN npm install -g hexo && \
+    mkdir /myBlog && cd /myBlog && hexo init && \
+    hexo generate && \
+    npm i hexo-generator-json-content --save && \
+    cd /myBlog && echo "hexo server" > startHexo.sh && \
+    chmod +x startHexo.sh
+
+VOLUME /myBlog
+WORKDIR /myBlog
+EXPOSE 4000
+
+CMD ["bash", "startHexo.sh"]
