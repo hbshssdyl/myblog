@@ -68,7 +68,7 @@ weixin: /img/Weixinpay.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 2
+toc: 1
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -126,8 +126,8 @@ giteement:
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
   repo: ''
   gitment_oauth:
-    client_id: 'bde9971f900d5e433474'           #client ID
-    client_secret: '5cbf3cb58b6a67f8ca4362e335fcbf94877554da'       #client secret
+    client_id: ''           #client ID
+    client_secret: ''       #client secret
 
 # 访问量统计功能(不蒜子)
 busuanzi:
@@ -195,7 +195,7 @@ tab_title_change:
 # 必须安装 `hexo-wordcount` 插件，在根目录执行 `npm i hexo-wordcount --save`
 # 也可以单独在md文件里Front-matter设置`no_word_count: true`属性，来自定义关闭字数统计
 word_count:
-  enable: true
+  enable: false
   # 只在文章详情显示(不在首页显示)
   only_article_visit: true
 
@@ -215,7 +215,7 @@ style:
   header: '#4d4d4d'
   gif:
     # 是否启用左侧边栏动态图效果
-    enable: true
+    enable: false
     # 自定义背景图路径(默认可以不设置，提供默认背景图)
     path: /img/biu.png
   # 右滑板块背景
@@ -224,7 +224,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: true
+  showTags: false
 
 # 智能菜单
 # 如不需要，将该对应项置为false
