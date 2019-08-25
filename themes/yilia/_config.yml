@@ -104,13 +104,13 @@ disqus: false
 
 # 3、Gitment----基于GitHub的评论系统(关闭请设置gitment_owner为false)
 # 关于如何集成:https://www.jianshu.com/p/ac7658cc912f
-gitment_owner: dufreeheart      #你的 GitHub ID
+gitment_owner: false #dufreeheart      #你的 GitHub ID
 # 是否使用官方js(false可以提升访问速度，本地修改过一部分的js，官方js可能会出现服务器不稳定，不太建议使用)
-gitment_remote: ’yilia-plus-pinglun‘
-gitment_repo: 'https://github.com/dufreeheart/yilia-plus-pinglun'          #存储评论的 repo name(需要在Github创建)
+gitment_remote: false #’yilia-plus-pinglun‘
+gitment_repo: '' #'https://github.com/dufreeheart/yilia-plus-pinglun'          #存储评论的 repo name(需要在Github创建)
 gitment_oauth:
-  client_id: 'bde9971f900d5e433474'           #client ID
-  client_secret: '5cbf3cb58b6a67f8ca4362e335fcbf94877554da'       #client secret
+  client_id: '' #'bde9971f900d5e433474'           #client ID
+  client_secret: '' #'5cbf3cb58b6a67f8ca4362e335fcbf94877554da'       #client secret
 
 # 4、Giteement----【国内用户建议使用这个，相对比较快】
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
