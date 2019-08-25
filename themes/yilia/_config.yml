@@ -1,8 +1,8 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  技术笔记: http://dylandu.link
-  随笔: http://dylandu.link
+  #技术笔记: http://dylandu.link
+  #随笔: http://dylandu.link
 
 # subNav-导航
 subNav:
